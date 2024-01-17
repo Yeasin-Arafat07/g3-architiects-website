@@ -1,0 +1,52 @@
+/* work sans font form google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,700&family=Work+Sans:wght@400;600;700;800&display=swap');
+/* shared style */
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary {
+    
+}
+/* nav section */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;           
+}   
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+.nav-tittle {
+    font-size: 3rem;
+    color: #131313;
+}
+/* banner style start */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-tittle {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description {
+    font-size: 1rem;
+    color: #727272;
+}
